@@ -1,0 +1,53 @@
+{
+    "match": {
+      "${$validator}": "/@?dcic/signature-commons-schema/(v[0-9]+/)?core/library.json"
+    },
+    "properties": {
+      "Image": {
+        "alt": "${meta['Name']}",
+        "src": "${PREFIX}/${meta['icon']}",
+        "icon": true,
+        "name": true,
+        "text": "${meta['Name']}",
+        "type": "img",
+        "hyperlink": "${meta.Website}",
+        "priority": 1,
+        "visibility": 1
+      },
+      "Cohen-funded study title": {
+        "text":  "${meta['Cohen-funded study title']}",
+        "type": "text",
+        "priority": 2,
+        "visibility": 1
+      },
+      "Type": {
+        "text":  "${meta['type']}",
+        "type": "text",
+        "priority": 2,
+        "visibility": 1,
+        "MDI_Icon": "mdi-human-greeting"
+      },
+      "Organization": {
+        "text":  "${meta['Organization']}",
+        "type": "text",
+        "priority": 2,
+        "visibility": 1,
+        "MDI_Icon": "mdi-account-group",
+        "subtitle": true
+      },
+      "Data": {
+        "text":  "${meta['Data']}",
+        "type": "text",
+        "priority": 3,
+        "visibility": 1,
+        "MDI_Icon": "mdi-database"
+      },
+      "Data Generation Status": {
+        "text":  "${meta['Data generation complete or ongoing']}",
+        "type": "text",
+        "priority": 3,
+        "visibility": 1,
+        "MDI_Icon": "mdi-beaker-question-outline"
+      }
+    }
+  }

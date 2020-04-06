@@ -1,0 +1,47 @@
+[
+  {
+    "Field_Name": "meta.Projects.Data generation complete or ongoing",
+    "Preferred_Name": "Data generation status",
+    "Preferred_Name_Singular": "Data generation status",
+    "Type": "string",
+    "MDI_Icon": "mdi-beaker-question-outline",
+    "Table": "libraries",
+    "Pie_Count": true,
+    "Filter": true
+  },
+  {
+    "Field_Name": "meta.Data",
+    "Preferred_Name": "Data type",
+    "Preferred_Name_Singular": "Data type",
+    "Type": "string",
+    "MDI_Icon": "mdi-flask",
+    "Table": "libraries",
+    "Pie_Count": true,
+    "Filter": true
+  },
+  {
+    "Field_Name": "resource",
+    "Preferred_Name": "Consortia",
+    "Preferred_Name_Singular": "Consortium",
+    "Type": "string",
+    "MDI_Icon": "mdi-account-group",
+    "Table": "libraries",
+    "Filter": true
+  },
+  {
+    "Field_Name": "libraries",
+    "Type": "string",
+    "Preferred_Name": "Researchers",
+    "MDI_Icon": "mdi-account-network",
+    "Table_Count": true,
+    "Visible_On_Landing": true
+  },
+  {
+    "Field_Name": "resources",
+    "Type": "table",
+    "Preferred_Name": "Consortia",
+    "MDI_Icon": "mdi-account-group",
+    "Table_Count": true,
+    "Visible_On_Landing": true
+  }
+]

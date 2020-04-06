@@ -1,0 +1,191 @@
+{
+    "landing": true,
+    "content": {
+        "favicon": {
+            "alt": "LYMEmind",
+            "src": "${PREFIX}/static/lyme/new-favicon.png",
+            "title": "LYMEmind Commons"
+        },
+        "header_info": {
+            "icon": {
+                "alt": "LYMEmind",
+                "src": "${PREFIX}/static/lyme/new-logo.svg",
+                "style": {
+                    "width": "auto",
+                    "height": 150
+                }
+            },
+            "header_right": " ",
+            "menu_props": {
+              "style": {
+                "position": "absolute",
+                "right": 10,
+                "top": 45
+              }
+            },
+            "header_props": {
+              "style": {
+                "height": 100,
+                "background": "#FAF7F5"
+              }
+            }
+        },
+        "font_families": [
+            "https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
+        ],
+        "metadata_placeholder": "Search over LYMEmind datasets",
+        "text_1": "Explore an extensive collection of LYMEmind datasets",
+        "text_4": " ",
+        "preferred_name": {
+            "libraries": "Datasets",
+            "resources": "Consortia"
+        },
+        "preferred_name_singular": {
+            "libraries": "Dataset",
+            "resources": "Consortium"
+        },
+        "nav": {
+            "API": {
+                "active": true
+            },
+            "Resources": {
+                "active": true,
+                "endpoint": "/Consortia"
+            },
+            "MetadataSearch": {
+                "active": true,
+                "endpoint": "/MetadataSearch"
+            },
+            "SignatureSearch": {
+                "active": false,
+                "endpoint": "/SignatureSearch"
+            }
+        },
+        "background_props": {
+          "style": {
+            "backgroundColor": "#FAF7F5",
+            "backgroundImage": "${PREFIX}static/lyme/blob.png",
+            "backgroundRepeat": "no-repeat", 
+            "backgroundPosition": "left top"
+          }
+        },
+        "theme_mod": {
+            "palette": {
+                "primary": {
+                    "main": "#FAF7F5",
+                    "contrastText": "#003541"
+                },
+                "secondary": {
+                    "main": "#B0C9CB",
+                    "contrastText": "#003541"
+                },
+                "default": {
+                  "main": "#0F7F90",
+                  "contrastText": "#FFF"
+                },
+                "background": {
+                  "main": "#FAF7F5",
+                  "contrastText": "#003541"
+                },
+                "defaultCard": {
+                  "main": "#FAF7F5",
+                  "contrastText": "#003541"
+                },
+                "defaultChip": {
+                    "main": "#0F7F90",
+                    "contrastText": "#FFF"
+                },
+                "defaultButton": {
+                    "main": "#F38B97",
+                    "contrastText": "#FFF"
+                }
+            },
+            "card": {
+                "bottomCard": {
+                    "palette": {
+                      "main": "#0F7F90",
+                      "contrastText": "#FFF"
+                    }
+                },
+                "topCard": {
+                    "overrides": {
+                        "boxShadow": "none",
+                        "background": "transparent"
+                    }
+                }
+            },
+            "shape": {
+                "borderRadius": 0
+            },
+            "chipColors": {
+                "default": {
+                    "backgroundColor": "#0F7F90",
+                    "color": "#FFF"
+                }
+            },
+            "typography": {
+                "fontFamily": "'Chakra Petch', sans-serif"
+            }
+        },
+        "ChipInputStyle": {
+          "disableUnderline": false
+        },
+        "footer_links": [
+            {
+                "alt": "LYMEmind",
+                "src": "${PREFIX}/static/lyme/bottom-link.png",
+                "href": "http://www.LYMEmind.org/",
+                "containerProps": {
+                  "style": {
+                    "height": 100
+                  }
+                },
+                "imageProps": {
+                  "style": {
+                    "height": 100
+                  }
+                }
+            }
+        ],
+        "deactivate_download": true,
+        "counting_validator": "/dcic/signature-commons-schema/v5/meta/schema/counting.json",
+        "bar_chart_style": {
+            "Bar": {
+                "fill": "#08507b"
+            },
+            "Chart": {
+                "margin": {
+                    "left": 50,
+                    "right": 80
+                }
+            },
+            "XAxis": {
+                "tick": {
+                    "fontSize": 9
+                },
+                "angle": 45,
+                "height": 180,
+                "axisLine": false,
+                "interval": 0,
+                "textAnchor": "start"
+            },
+            "ResponsiveContainer": {
+                "width": 420,
+                "height": 420
+            }
+        },
+        "pie_chart_style": {
+            "Pie": {
+                "fill": "#0F7F90"
+            }
+        },
+        "text_2": "Search across various fields",
+        "text_3": "By",
+        "ui_schema": "/dcic/signature-commons-schema/v5/meta/schema/ui-schema.json",
+        "search_terms": [
+            "Borrelia",
+            "PTLDS",
+            "doxycycline"
+        ]
+    }
+}

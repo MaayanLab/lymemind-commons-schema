@@ -1,0 +1,17 @@
+{
+  "match": {
+    "${$validator}": "/@?dcic/signature-commons-schema/(v[0-9]+/)?core/resource.json"
+  },
+  "properties": {
+    "Image": {
+      "alt": "${meta['institution']}",
+      "src": "${PREFIX}/${meta['icon']}",
+      "icon": true,
+      "name": true,
+      "text": "${meta['institution']}",
+      "type": "img",
+      "priority": 1,
+      "visibility": 1
+    }
+  }
+}
