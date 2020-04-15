@@ -1,6 +1,6 @@
 [
   {
-    "Field_Name": "meta.Projects.Data generation complete or ongoing",
+    "Field_Name": "meta.Data_generation_complete_or_ongoing",
     "Preferred_Name": "Data generation status",
     "Preferred_Name_Singular": "Data generation status",
     "Type": "string",

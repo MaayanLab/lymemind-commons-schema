@@ -64,9 +64,9 @@
         "background_props": {
           "style": {
             "backgroundColor": "#FAF7F5",
-            "backgroundImage": "${PREFIX}static/lyme/blob.png",
+            "backgroundImage": "${PREFIX}/static/lyme/blob.png",
             "backgroundRepeat": "no-repeat", 
-            "backgroundPosition": "left top"
+            "backgroundPosition": "right top"
           }
         },
         "theme_mod": {
@@ -186,6 +186,7 @@
             "Borrelia",
             "PTLDS",
             "doxycycline"
-        ]
+        ],
+        "github_issues": "https://github.com/MaayanLab/lymemind-commons-schema"
     }
 }
