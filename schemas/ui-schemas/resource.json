@@ -1,11 +1,12 @@
 {
   "match": {
-    "${$validator}": "/@?dcic/signature-commons-schema/(v[0-9]+/)?core/resource.json"
+    "${$validator}": "/@?dcic/signature-commons-schema/(v[0-9]+/)?core/resource.json",
+    "${meta.institution}": "^((?!Icahn School of Medicine at Mount Sinai).)*$"
   },
   "properties": {
     "Image": {
       "alt": "${meta['institution']}",
-      "src": "${PREFIX}/${meta['icon']}",
+      "src": "${meta['icon']}",
       "icon": true,
       "name": true,
       "text": "${meta['institution']}",
