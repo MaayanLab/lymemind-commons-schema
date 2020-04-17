@@ -5,7 +5,7 @@
     "properties": {
       "Image": {
         "alt": "${meta['Cohen-funded_study_title']}",
-        "src": "${PREFIX}/${meta.Icon}",
+        "src": "${meta.Icon}",
         "icon": true,
         "name": true,
         "text": "${meta['Cohen-funded_study_title']}",
