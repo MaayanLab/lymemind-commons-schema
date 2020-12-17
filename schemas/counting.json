@@ -10,14 +10,65 @@
     "Filter": true
   },
   {
-    "Field_Name": "meta.Data",
-    "Preferred_Name": "Data type",
-    "Preferred_Name_Singular": "Data type",
+    "Field_Name": "meta.category",
+    "Preferred_Name": "Dataset categories",
+    "Preferred_Name_Singular": "Dataset category",
     "Type": "string",
-    "MDI_Icon": "mdi-flask",
-    "Table": "libraries",
+    "MDI_Icon": "mdi-crosshairs-question",
+    "Table": "signatures",
     "Pie_Count": true,
     "Filter": true
+  },
+  {
+    "Field_Name": "meta.assay.Name",
+    "Preferred_Name": "Assays",
+    "Preferred_Name_Singular": "Assay",
+    "Type": "string",
+    "MDI_Icon": "mdi-flask-outline",
+    "Table": "signatures",
+    "Pie_Count": true,
+    "Meta_Count": true,
+    "Filter": true,
+    "Search_Field": "meta.assay"
+  },
+  {
+    "Field_Name": "meta.organism",
+    "Preferred_Name": "Organisms",
+    "Preferred_Name_Singular": "Organism",
+    "Type": "string",
+    "MDI_Icon": "mdi-bug",
+    "Table": "signatures",
+    "Pie_Count": true,
+    "Meta_Count": true,
+    "Filter": true
+  },
+  {
+    "Field_Name": "meta.category",
+    "Preferred_Name": "Dataset categories",
+    "Preferred_Name_Singular": "Dataset category",
+    "Type": "string",
+    "MDI_Icon": "mdi-crosshairs-question",
+    "Table": "signatures",
+    "Pie_Count": true,
+    "Filter": true
+  },
+  {
+    "Field_Name": "library",
+    "Preferred_Name": "Projects",
+    "Preferred_Name_Singular": "Project",
+    "Type": "string",
+    "MDI_Icon": "mdi-book-multiple",
+    "Table": "signatures",
+    "Filter": true
+  },
+  {
+    "Field_Name": "meta.Grantee.Name",
+    "Preferred_Name": "Grantees",
+    "Preferred_Name_Singular": "Grantee",
+    "Type": "string",
+    "MDI_Icon": "mdi-account-group",
+    "Table": "libraries",
+    "Meta_Count": true
   },
   {
     "Field_Name": "resource",
@@ -29,18 +80,26 @@
     "Filter": true
   },
   {
+    "Field_Name": "signatures",
+    "Type": "string",
+    "Preferred_Name": "Datasets",
+    "MDI_Icon": "mdi-database",
+    "Table_Count": true,
+    "Visible_On_Landing": true
+  },
+  {
     "Field_Name": "libraries",
     "Type": "string",
-    "Preferred_Name": "Researchers",
-    "MDI_Icon": "mdi-account-network",
+    "Preferred_Name": "Projects",
+    "MDI_Icon": "mdi-book-multiple",
     "Table_Count": true,
     "Visible_On_Landing": true
   },
   {
     "Field_Name": "resources",
-    "Type": "table",
+    "Type": "string",
     "Preferred_Name": "Consortia",
-    "MDI_Icon": "mdi-account-group",
+    "MDI_Icon": "mdi-account-network",
     "Table_Count": true,
     "Visible_On_Landing": true
   }

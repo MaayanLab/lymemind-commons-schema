@@ -1,0 +1,60 @@
+{
+    "match": {
+      "${$validator}": "/@?dcic/signature-commons-schema/(v[0-9]+/)?core/signature.json"
+    },
+    "properties": {
+      "Image": {
+        "alt": "${meta.title}",
+        "src": "${library.meta.Icon}",
+        "icon": true,
+        "name": true,
+        "text": "${meta.title}",
+        "type": "img",
+        "priority": 1,
+        "visibility": 1,
+        "description": true,
+        "hyperlink": "${meta.access_url || meta.ftplink}"
+      },
+      "Brief Description": {
+        "text":  "${meta.brief_description}",
+        "type": "text",
+        "priority": 1,
+        "visibility": 1,
+        "subtitle": true
+      },
+      "Assay": {
+        "text":  "${meta.assay[0].Name}",
+        "type": "text",
+        "priority": 3,
+        "visibility": 1,
+        "MDI_Icon": "mdi-flask-outline",
+        "clickable": true
+      },
+      "Category": {
+        "text":  "${meta.category}",
+        "type": "text",
+        "priority": 3,
+        "visibility": 1,
+        "MDI_Icon": "mdi-crosshairs-question",
+        "clickable": true
+      },
+      "Organism": {
+        "text":  "${meta.organism[0]}",
+        "type": "text",
+        "priority": 3,
+        "visibility": 1,
+        "MDI_Icon": "mdi-bug",
+        "clickable": true
+      },
+      "Authors": {
+        "text":  "${meta.authors}",
+        "Field_Name": "meta.authors",
+        "type": "object",
+        "priority": 3,
+        "visibility": 1,
+        "MDI_Icon": "mdi-account-search",
+        "keywords": true,
+        "clickable": true
+      }
+    }
+  }

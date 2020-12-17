@@ -4,14 +4,22 @@
   },
   "properties": {
     "Image": {
-      "alt": "${meta['institution']}",
-      "src": "${meta['icon']}",
+      "alt": "${meta['Consortium']}",
+      "src": "${meta.Icon || 'https://raw.githubusercontent.com/MaayanLab/lymemind-commons-schema/master/images/default-project.png'}",
       "icon": true,
       "name": true,
-      "text": "${meta['institution']}",
+      "text": "${meta['Consortium']}",
       "type": "img",
       "priority": 1,
       "visibility": 1
+    },
+    "Description": {
+      "description": true,
+      "subtitle": true,
+      "text": "${meta['Description'] || ''}",
+      "type": "text",
+      "priority": 2,
+      "visibility": 2
     }
   }
 }

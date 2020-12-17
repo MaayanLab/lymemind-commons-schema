@@ -2,13 +2,13 @@
     "landing": true,
     "content": {
         "favicon": {
-            "alt": "LYMEmind",
+            "alt": "lymeMIND",
             "src": "${PREFIX}/static/lyme/new-favicon.png",
-            "title": "LYMEmind Commons"
+            "title": "lymeMIND Commons"
         },
         "header_info": {
             "icon": {
-                "alt": "LYMEmind",
+                "alt": "lymeMIND",
                 "src": "${PREFIX}/static/lyme/new-logo.svg",
                 "style": {
                     "width": "auto",
@@ -33,15 +33,17 @@
         "font_families": [
             "https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
         ],
-        "metadata_placeholder": "Search over LYMEmind datasets",
-        "text_1": "Explore an extensive collection of LYMEmind datasets",
+        "metadata_placeholder": "Search over lymeMIND datasets",
+        "text_1": "Explore an extensive collection of Cohen Lyme and Tickborne Disease Initiative Datasets",
         "text_4": " ",
         "preferred_name": {
-            "libraries": "Datasets",
-            "resources": "Consortia"
+            "signatures": "Datasets",
+            "libraries": "Projects",
+            "resources": "Consortium"
         },
         "preferred_name_singular": {
-            "libraries": "Dataset",
+            "signatures": "Dataset",
+            "libraries": "Project",
             "resources": "Consortium"
         },
         "nav": {
@@ -50,7 +52,7 @@
             },
             "Resources": {
                 "active": true,
-                "endpoint": "/Consortia"
+                "endpoint": "/Consortium"
             },
             "MetadataSearch": {
                 "active": true,
@@ -132,9 +134,9 @@
         },
         "footer_links": [
             {
-                "alt": "LYMEmind",
+                "alt": "lymeMIND",
                 "src": "${PREFIX}/static/lyme/bottom-link.png",
-                "href": "http://www.LYMEmind.org/",
+                "href": "http://www.lymeMIND.org/",
                 "containerProps": {
                   "style": {
                     "height": 100
@@ -187,6 +189,7 @@
             "PTLDS",
             "doxycycline"
         ],
-        "github_issues": "https://github.com/MaayanLab/lymemind-commons-schema"
+        "resource_pie_caption": "Datasets per Consortium Member",
+        "github_issues": "https://github.com/MaayanLab/lymeMIND-commons-schema"
     }
 }

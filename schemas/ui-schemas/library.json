@@ -5,13 +5,14 @@
     "properties": {
       "Image": {
         "alt": "${meta['Cohen-funded_study_title']}",
-        "src": "${meta.Icon}",
+        "src": "${meta.Icon || 'https://raw.githubusercontent.com/MaayanLab/lymemind-commons-schema/master/images/default-project.png'}",
         "icon": true,
         "name": true,
         "text": "${meta['Cohen-funded_study_title']}",
         "type": "img",
         "priority": 1,
-        "visibility": 1
+        "visibility": 1,
+        "description": true
       },
       "Data Generation Status": {
         "text":  "${meta.Data_generation_complete_or_ongoing}",
@@ -20,14 +21,30 @@
         "visibility": 1,
         "MDI_Icon": "mdi-beaker-question-outline"
       },
-      "Researchers": {
+      "Data": {
+        "text":  "${meta.Data}",
+        "type": "text",
+        "priority": 3,
+        "visibility": 1,
+        "MDI_Icon": "mdi-beaker-question-outline"
+      },
+      "Category": {
+        "text":  "${meta.Category}",
+        "type": "text",
+        "priority": 3,
+        "visibility": 1,
+        "MDI_Icon": "mdi-crosshairs-question",
+        "clickable": true
+      },
+      "Grantees": {
         "text":  "${Name}",
-        "Field_Name": "meta.Researchers",
+        "Field_Name": "meta.Grantee",
         "type": "object",
         "priority": 3,
         "visibility": 1,
         "MDI_Icon": "mdi-account-search",
-        "keywords": true
+        "keywords": true,
+        "clickable": true
       }
     }
   }
