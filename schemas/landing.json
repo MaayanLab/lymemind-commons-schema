@@ -39,12 +39,12 @@
         "preferred_name": {
             "signatures": "Datasets",
             "libraries": "Projects",
-            "resources": "Consortium"
+            "resources": "Consortium Members"
         },
         "preferred_name_singular": {
             "signatures": "Dataset",
             "libraries": "Project",
-            "resources": "Consortium"
+            "resources": "Consortium Member" 
         },
         "nav": {
             "API": {
@@ -190,6 +190,7 @@
             "doxycycline"
         ],
         "resource_pie_caption": "Datasets per Consortium Member",
+        "library_name": "",
         "github_issues": "https://github.com/MaayanLab/lymeMIND-commons-schema"
     }
 }

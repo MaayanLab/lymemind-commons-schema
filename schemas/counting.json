@@ -28,7 +28,6 @@
     "Table": "signatures",
     "Pie_Count": true,
     "Meta_Count": true,
-    "Filter": true,
     "Search_Field": "meta.assay"
   },
   {
@@ -40,16 +39,6 @@
     "Table": "signatures",
     "Pie_Count": true,
     "Meta_Count": true,
-    "Filter": true
-  },
-  {
-    "Field_Name": "meta.category",
-    "Preferred_Name": "Dataset categories",
-    "Preferred_Name_Singular": "Dataset category",
-    "Type": "string",
-    "MDI_Icon": "mdi-crosshairs-question",
-    "Table": "signatures",
-    "Pie_Count": true,
     "Filter": true
   },
   {
@@ -72,8 +61,8 @@
   },
   {
     "Field_Name": "resource",
-    "Preferred_Name": "Consortia",
-    "Preferred_Name_Singular": "Consortium",
+    "Preferred_Name": "Consortium Members",
+    "Preferred_Name_Singular": "Consortium Member",
     "Type": "string",
     "MDI_Icon": "mdi-account-group",
     "Table": "libraries",
@@ -98,7 +87,7 @@
   {
     "Field_Name": "resources",
     "Type": "string",
-    "Preferred_Name": "Consortia",
+    "Preferred_Name": "Consortium Members",
     "MDI_Icon": "mdi-account-network",
     "Table_Count": true,
     "Visible_On_Landing": true

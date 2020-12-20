@@ -4,11 +4,11 @@
   },
   "properties": {
     "Image": {
-      "alt": "${meta['Consortium']}",
+      "alt": "${meta['Name']}",
       "src": "${meta.Icon || 'https://raw.githubusercontent.com/MaayanLab/lymemind-commons-schema/master/images/default-project.png'}",
       "icon": true,
       "name": true,
-      "text": "${meta['Consortium']}",
+      "text": "${meta['Name']}",
       "type": "img",
       "priority": 1,
       "visibility": 1
